@@ -59,6 +59,10 @@ i {
     padding: .5rem .75rem;
 }
 
+.instagram {
+    padding: .5rem .6rem;
+}
+
 i:hover {
     color: var(--Soft-Magenta);
     border: 1px solid var(--Soft-Magenta);
