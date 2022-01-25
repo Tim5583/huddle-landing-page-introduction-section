@@ -26,8 +26,10 @@
     padding: 0 1rem;
 }
 
-.text-center {
+.text {
     color: var(--white);
+    text-align: center;
+    padding-top: 2rem;
 }
 
 .btn-register {
@@ -51,6 +53,10 @@ i {
     margin-left: .3rem;
 }
 
+.facebook {
+    padding: .5rem .75rem;
+}
+
 i:hover {
     color: var(--Soft-Magenta);
     border: 1px solid var(--Soft-Magenta);
@@ -63,4 +69,36 @@ i:hover {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 992px) {
+    body {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        min-height: 100vh;
+    }
+
+
+    .container {
+        padding: 2rem;
+        background-image: url(./images/bg-desktop.svg);
+    }
+
+    .logo-img {
+        width: 250px;
+    }
+
+    .text {
+        text-align: left;
+        padding: 5rem 4rem 0 1rem;
+    }
+
+    .social {
+        text-align: right;
+    }
+
+    .discription {
+        padding: 0;
+    }
 }
