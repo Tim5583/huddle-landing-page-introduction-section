@@ -1,4 +1,4 @@
-#Huddle landing page with single introductory section solution
+# Huddle landing page with single introductory section solution
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
