@@ -32,6 +32,7 @@
     padding-top: 2rem;
 }
 
+/* register button  */
 .btn-register {
     background-color: var(--white);
     padding: .5em 4em;
@@ -46,6 +47,7 @@
     color: var(--white);
 }
 
+/* social icons  */
 i {
     border: 1px solid #fff;
     padding: .5rem;
@@ -63,6 +65,7 @@ i:hover {
     cursor: pointer;
 }
 
+/* footer  */
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -71,6 +74,7 @@ i:hover {
   color: hsl(228, 45%, 44%);
 }
 
+/* for large screen */
 @media (min-width: 992px) {
     body {
         display: grid;
@@ -78,7 +82,6 @@ i:hover {
         align-content: center;
         min-height: 100vh;
     }
-
 
     .container {
         padding: 2rem;
